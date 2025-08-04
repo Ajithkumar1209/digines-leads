@@ -4,21 +4,82 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>DigiNex Global - Free Consultation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
-    body { font-family: sans-serif; background: #f0f2f5; margin: 0; padding: 20px; }
-    .container { max-width: 600px; margin: auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-    h1 { color: #0077b6; text-align: center; }
-    label { display: block; margin-top: 15px; font-weight: bold; }
-    input, textarea, select { width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #ccc; border-radius: 5px; }
-    button { margin-top: 20px; background: #0077b6; color: white; padding: 12px; width: 100%; border: none; border-radius: 5px; cursor: pointer; }
-    .whatsapp { margin-top: 20px; display: block; text-align: center; font-weight: bold; }
-    .whatsapp a { background: #25D366; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; }
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background: linear-gradient(to right, #e0f7fa, #fff);
+      padding: 30px;
+    }
+    .form-card {
+      max-width: 600px;
+      margin: auto;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.08);
+      padding: 40px;
+    }
+    h1 {
+      text-align: center;
+      color: #0077b6;
+      margin-bottom: 20px;
+    }
+    p {
+      text-align: center;
+      margin-bottom: 25px;
+      color: #333;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: 600;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 12px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      background: #f9f9f9;
+      font-size: 15px;
+    }
+    button {
+      background-color: #0077b6;
+      color: white;
+      border: none;
+      width: 100%;
+      padding: 14px;
+      margin-top: 25px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    button:hover {
+      background-color: #023e8a;
+    }
+    .whatsapp-btn {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .whatsapp-btn a {
+      background-color: #25D366;
+      padding: 10px 20px;
+      border-radius: 5px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+    }
   </style>
 </head>
 <body>
-  <div class="container">
+  <div class="form-card">
     <h1>DigiNex Global</h1>
-    <p>🚀 Get a free consultation for your business — Website, SEO, Branding & More!</p>
+    <p>🚀 Get a FREE business consultation — Website, SEO, Branding, Marketing</p>
 
     <form action="https://formsubmit.co/digitalsevamarg@gmail.com" method="POST">
       <input type="hidden" name="_captcha" value="false">
@@ -31,25 +92,27 @@
       <label>WhatsApp Number</label>
       <input type="text" name="whatsapp" required />
 
-      <label>What Service Do You Need?</label>
+      <label>Service Needed</label>
       <select name="service" required>
-        <option value="">Select one</option>
-        <option value="Website">Website Design</option>
+        <option value="">-- Select --</option>
+        <option value="Website Design">Website Design</option>
         <option value="SEO">SEO</option>
-        <option value="Branding">Branding & Logo</option>
-        <option value="Marketing">Social Media / WhatsApp Marketing</option>
-        <option value="Other">Other (Mention in message)</option>
+        <option value="Branding">Branding</option>
+        <option value="Marketing">Marketing</option>
+        <option value="Other">Other</option>
       </select>
 
-      <label>Message (optional)</label>
+      <label>Message (Optional)</label>
       <textarea name="message" rows="4"></textarea>
 
-      <button type="submit">🚀 Send & Get Free Consultation</button>
+      <button type="submit">🚀 Submit & Get Free Call</button>
     </form>
 
-    <div class="whatsapp">
-      OR 👉 <a href="https://wa.me/918767619783" target="_blank">Chat on WhatsApp</a>
+    <div class="whatsapp-btn">
+      <p>OR Chat Directly</p>
+      <a href="https://wa.me/918767619783" target="_blank">📲 Chat on WhatsApp</a>
     </div>
   </div>
 </body>
 </html>
+
